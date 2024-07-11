@@ -1,0 +1,214 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #FC1503 !important;
+  color: white !important;
+}
+
+.category-btn:hover span{
+  color: white !important;
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+
+.react-player-icon {
+  height: 19vh !important;
+  width: 100% !important;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .copyright{
+    display:none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar{
+    width:200px;
+  }
+}
+
+.VideoInput{
+  height: 100vh;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fdark-plant&psig=AOvVaw21gklsw6DGd3j5hFjRfgLZ&ust=1676844256180000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCNDoouOJoP0CFQAAAAAdAAAAABAT");
+}
+
+.vidForm{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 30%;
+  margin: auto;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 20px rgb(253, 234, 234);
+}
+
+.vidBtn{
+  background-color: #FC1503;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.vidText{
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+}
+
+input[type="file"] {
+  margin-left: 5rem;
+}
+
+.red{
+  color:red
+}
+
+.div:hover{
+  background-color: rgb(211, 209, 209);
+}
+
+.true{
+  background-color: rgb(211, 209, 209);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300&family=Poppins&family=Roboto+Mono:wght@300&display=swap');
+
+.home {
+  height: 100vh;
+  width: 100vw;
+}
+
+.auth-btn {
+  background-color: rgb(128, 29, 29);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  height:60px;
+  width:180px;
+  margin: 43vh 0 0 45vw;
+  transition: 200ms linear;
+}
+
+.auth-btn:hover {
+  color: black;
+  background-color: rgb(159, 45, 45);
+}
+
+.primary-btn {
+  background-color: rgb(128, 29, 29);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  height:32px;
+  width:180px;
+  margin: 10px 0 0 68px;
+  transition: 200ms linear;
+}
+
+.primary-btn:hover {
+  background-color: rgb(159, 45, 45);
+  color: black;
+}
+
+.playerDiv{
+  height: 80vh;
+  width: 100%;
+}
+
+.subtitle1{
+  display: block;
+  text-overflow: clip;
+}
+
+.userVid{
+  position: absolute;
+  bottom: 7rem;
+  left: 23rem;
+}
+
+.startStream{
+  width: 40%;
+  
+}
+
+.liveDiv{
+  height: 30vh;
+  width: 30vw;
+  border: 2px solid white;
+}
